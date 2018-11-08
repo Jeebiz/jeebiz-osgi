@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- POM的模型版本 -->
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>net.jeebiz</groupId>
+	<artifactId>jeebiz-osgi-build</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>jeebiz-osgi</name>
+	<description></description>
+	<url>http://temp.jeebiz.net</url>
+   	
+	<modules>
+
+	<module>jeebiz-osgi-dependencies</module>
+	<module>jeebiz-osgi-parent</module>
+	</modules>
+	
+	<!-- 项目使用的License -->
+	<licenses>
+        <license>
+            <name>The Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+	<!-- 组织信息 -->
+	<organization>
+		<name>Jeebiz</name>
+		<url>www.jeebiz.net</url>
+	</organization>
+
+	<!-- 开发者信息 -->
+	<developers>
+		<developer>
+			<id>001</id>
+			<name>vindell</name>
+			<email>hnxyhcwdl1003@163.com</email>
+		</developer>
+	</developers>
+	
+	<!-- 配置部署的远程仓库:让Maven知道当我要发布release版本或者snapshot版本是需要发布到哪个地址 -->
+	<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+            <!-- 表示是否为Snapshot版本分配一个包含时间戳的构建号 -->
+			<uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+	
+	<!-- SCM配置 -->
+    <scm>
+    	<!-- 项目当前的tag -->
+    	<tag>svn://127.0.0.1/jeebiz-temp/tags</tag>
+    	<!-- 可通过Web浏览器访问的公共网址 -->
+        <url>http://ws.jeefw.com</url>
+        <!-- 用户使用的URI，能够只读地访问版本控制系统 -->
+        <connection>svn://127.0.0.1/jeebiz-temp/trunk</connection>
+        <!-- 开发人员使用URI，能够读写地访问版本控制系统 -->
+        <developerConnection>svn://127.0.0.1/jeebiz-temp/trunk</developerConnection>
+    </scm>	
+	
+	<properties>
+		
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			
+			
+			
+		</dependencies>
+	</dependencyManagement>
+	
+</project>
