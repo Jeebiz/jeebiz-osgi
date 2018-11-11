@@ -13,13 +13,13 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<activiti-osgi.version>6.0.0</activiti-osgi.version>
-		<activemq-osgi.version>5.15.3</activemq-osgi.version>
-		<akka-osgi.version>2.5.12</akka-osgi.version>
+		<activemq-osgi.version>5.15.7</activemq-osgi.version>
+		<akka-osgi.version>2.5.18</akka-osgi.version>
 		<axis2-osgi.version>1.7.8</axis2-osgi.version>
 		<camel-osgi.version>2.22.1</camel-osgi.version>
 		<camel-spring-dm.version>2.19.5</camel-spring-dm.version>
 		<collectd-osgi.version>1.0.1</collectd-osgi.version>
-		<cxf.version>3.2.6</cxf.version>
+		<cxf.version>3.2.7</cxf.version>
 		<drools-osgi.version>7.0.0.Beta1</drools-osgi.version>
 		<felix.version>6.0.1</felix.version>
 		<guava-osgi.version>11.0.1</guava-osgi.version>
@@ -43,6 +43,7 @@
 		<refit-osgi.version>1.8.0</refit-osgi.version>
 		<rxtx-osgi.version>2.2-pre2</rxtx-osgi.version>
 		<servlet-api.version>2.5</servlet-api.version>
+		<struts2.version>2.5.18</struts2.version>
 		<slf4j.version>1.7.25</slf4j.version>
 		<spring-osgi.version>1.2.1</spring-osgi.version>
 		<transactions-osgi.version>4.0.6</transactions-osgi.version>
@@ -323,7 +324,16 @@
 			    <artifactId>rxtx-osgi</artifactId>
 			    <version>${rxtx-osgi.version}</version>
 			</dependency>
-
+			
+			<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-bom -->
+			<dependency>
+			    <groupId>org.apache.struts</groupId>
+			    <artifactId>struts2-bom</artifactId>
+			    <version>${struts2.version}</version>
+			    <scope>import</scope>
+			    <type>pom</type>
+			</dependency>
+									
 			<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 			<dependency>
 				<groupId>org.slf4j</groupId>
