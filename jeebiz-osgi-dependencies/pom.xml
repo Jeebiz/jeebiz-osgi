@@ -16,7 +16,7 @@
 		<activemq-osgi.version>5.15.9</activemq-osgi.version>
 		<akka-osgi.version>2.5.21</akka-osgi.version>
 		<axis2-osgi.version>1.7.9</axis2-osgi.version>
-		<camel-osgi.version>2.3.0</camel-osgi.version>
+		<camel-osgi.version>3.0.0-M1</camel-osgi.version>
 		<camel-spring-dm.version>2.19.5</camel-spring-dm.version>
 		<collectd-osgi.version>1.0.1</collectd-osgi.version>
 		<cxf.version>3.3.1</cxf.version>
@@ -35,6 +35,7 @@
 		<junit.version>4.12</junit.version>
 		<junit-osgi.version>1.2.10</junit-osgi.version>
 		<liquibase-osgi.version>3.4.2</liquibase-osgi.version>
+		<opennms-osgi.version>23.0.3</opennms-osgi.version>
 		<openwebbeans-osgi.version>2.0.10</openwebbeans-osgi.version>
 		<osgi-annotation.version>7.0.0</osgi-annotation.version>
 		<osgi-core.version>7.0.0</osgi-core.version>
@@ -276,6 +277,13 @@
 			    <version>2.2.7</version>
 			</dependency>
 			
+			<!-- https://mvnrepository.com/artifact/org.opennms.osgi/opennms-osgi-core -->
+			<dependency>
+			    <groupId>org.opennms.osgi</groupId>
+			    <artifactId>opennms-osgi-core</artifactId>
+			    <version>${opennms-osgi.version}</version>
+			</dependency>
+						
 			<!-- https://mvnrepository.com/artifact/org.apache.openwebbeans/openwebbeans-osgi -->
 			<dependency>
 			    <groupId>org.apache.openwebbeans</groupId>
