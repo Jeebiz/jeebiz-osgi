@@ -13,29 +13,29 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<activiti-osgi.version>6.0.0</activiti-osgi.version>
-		<activemq-osgi.version>5.15.7</activemq-osgi.version>
-		<akka-osgi.version>2.5.18</akka-osgi.version>
-		<axis2-osgi.version>1.7.8</axis2-osgi.version>
-		<camel-osgi.version>2.22.1</camel-osgi.version>
+		<activemq-osgi.version>5.15.9</activemq-osgi.version>
+		<akka-osgi.version>2.5.21</akka-osgi.version>
+		<axis2-osgi.version>1.7.9</axis2-osgi.version>
+		<camel-osgi.version>2.3.0</camel-osgi.version>
 		<camel-spring-dm.version>2.19.5</camel-spring-dm.version>
 		<collectd-osgi.version>1.0.1</collectd-osgi.version>
-		<cxf.version>3.2.7</cxf.version>
+		<cxf.version>3.3.1</cxf.version>
 		<drools-osgi.version>7.0.0.Beta1</drools-osgi.version>
-		<felix.version>6.0.1</felix.version>
+		<felix.version>6.0.2</felix.version>
 		<guava-osgi.version>11.0.1</guava-osgi.version>
 		<h2spatial-osgi.version>1.2.4</h2spatial-osgi.version>
-		<hibernate-osgi.version>5.3.7.Final</hibernate-osgi.version>
-		<httpclient-osgi.version>4.5.6</httpclient-osgi.version>
+		<hibernate-osgi.version>5.4.2.Final</hibernate-osgi.version>
+		<httpclient-osgi.version>4.5.7</httpclient-osgi.version>
 		<httpasyncclient-osgi.version>4.1.4</httpasyncclient-osgi.version>
-		<httpcore-osgi.version>4.4.10</httpcore-osgi.version>
-		<infinispan-osgi.version>9.4.0.Final</infinispan-osgi.version>
+		<httpcore-osgi.version>4.4.11</httpcore-osgi.version>
+		<infinispan-osgi.version>9.4.11.Final</infinispan-osgi.version>
 		<java.version>1.8</java.version>
-		<jena-osgi.version>3.9.0</jena-osgi.version>
+		<jena-osgi.version>3.10.0</jena-osgi.version>
 		<jeromq-osgi.version>0.2.0</jeromq-osgi.version>
 		<junit.version>4.12</junit.version>
 		<junit-osgi.version>1.2.10</junit-osgi.version>
 		<liquibase-osgi.version>3.4.2</liquibase-osgi.version>
-		<openwebbeans-osgi.version>2.0.7</openwebbeans-osgi.version>
+		<openwebbeans-osgi.version>2.0.10</openwebbeans-osgi.version>
 		<osgi-annotation.version>7.0.0</osgi-annotation.version>
 		<osgi-core.version>7.0.0</osgi-core.version>
 		<osgi-cmpn.version>7.0.0</osgi-cmpn.version>
@@ -43,36 +43,36 @@
 		<refit-osgi.version>1.8.0</refit-osgi.version>
 		<rxtx-osgi.version>2.2-pre2</rxtx-osgi.version>
 		<servlet-api.version>2.5</servlet-api.version>
-		<struts2.version>2.5.18</struts2.version>
-		<slf4j.version>1.7.25</slf4j.version>
+		<struts2.version>2.5.20</struts2.version>
+		<slf4j.version>1.7.26</slf4j.version>
 		<spring-osgi.version>1.2.1</spring-osgi.version>
 		<transactions-osgi.version>4.0.6</transactions-osgi.version>
 		<weixin-java-osgi.version>2.5.1.BETA</weixin-java-osgi.version>
 		<wink-osgi.version>1.4</wink-osgi.version>
 		
 		<!-- Maven Plugin versions -->
-		<maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
+		<maven-assembly-plugin.version>3.1.1</maven-assembly-plugin.version>
 		<maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
 		<maven-codenarc-plugin.version>0.22-1</maven-codenarc-plugin.version>
 		<maven-cobertura-plugin.version>2.7</maven-cobertura-plugin.version>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
-		<maven-bundle-plugin.version>4.0.0</maven-bundle-plugin.version>
+		<maven-bundle-plugin.version>4.1.0</maven-bundle-plugin.version>
 		<maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-		<maven-dependency-check-plugin.version>3.3.0</maven-dependency-check-plugin.version>
+		<maven-dependency-check-plugin.version>4.0.2</maven-dependency-check-plugin.version>
 		<maven-enforcer-plugin.version>3.0.0-M2</maven-enforcer-plugin.version>
 		<maven-findbugs-plugin.version>3.0.5</maven-findbugs-plugin.version>
 		<maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
 		<maven-gwt-plugin.version>2.8.2</maven-gwt-plugin.version>
 		<maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
-		<maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
-		<maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
-		<maven-karaf-plugin.version>4.2.1</maven-karaf-plugin.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
+		<maven-karaf-plugin.version>4.2.4</maven-karaf-plugin.version>
 		<maven-license-plugin.version>1.14</maven-license-plugin.version>
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
- 		<maven-pmd-plugin.version>3.9.0</maven-pmd-plugin.version>
+ 		<maven-pmd-plugin.version>3.11.0</maven-pmd-plugin.version>
 		<maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-		<maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
+		<maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
 		<maven-war-plugin.version>3.2.2</maven-war-plugin.version>
 	</properties>
 	
